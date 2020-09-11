@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(195, 200, 202);
+}
+#head{
+    max-width: 1200px;
+    height: auto;
+    margin-top: 20px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+img{
+    height: 160px;
+    width: 160px;
+}
+
+.logo {
+    float: left;
+    width: 14%;
+    height: auto;
+    text-align: left;
+    padding-right: 15px;
+}
+
+h1{
+    font-style: oblique;
+    font-size: 24px;
+}
+
+.description {
+    float: left;
+    width: 40%;
+    height: auto;
+    border-left: 1px solid #999;
+    padding-left: 20px;
+    margin-top: 1%;
+}
+
+div.networks ul li{
+    list-style: none;
+}
+
+div.networks ul li a.link-in{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin: 25px;
+    margin-left: 200px;
+    background-image: url(../CSS/ImagenMeraki/instagram.png);
+}
+
+div.networks ul li a.link-wha{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin: 25px;
+    background-image: url(../CSS/ImagenMeraki/whatsapp.png);
+}
